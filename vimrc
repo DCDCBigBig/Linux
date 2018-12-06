@@ -110,7 +110,7 @@ filetype plugin indent on
 
 imap ( ()<ESC>i
 imap [ []<ESC>i
-imap { {<CR>}<ESC>i
+imap { {}<ESC>i<CR><ESC>V<O
 
 "Compilation:
 nnoremap <silent> <F9> :w<cr>:!g++ % -o %< -g -lm -wall -std=c++98 -ftrapv -fsanitize=undefined<cr>
